@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SMIT Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>SMIT Registration Form</h2>
+    <p>Saylani Mass IT Training Program</p>
+
+    <form>
+        <div class="input-group">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name" required>
+        </div>
+
+        <div class="input-group">
+            <label>Father Name</label>
+            <input type="text" placeholder="Enter father name" required>
+        </div>
+
+        <div class="input-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter email" required>
+        </div>
+
+        <div class="input-group">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="03XXXXXXXXX" required>
+        </div>
+
+        <div class="input-group">
+            <label>CNIC / B-Form</label>
+            <input type="text" placeholder="XXXXX-XXXXXXX-X" required>
+        </div>
+
+        <div class="input-group">
+            <label>Course Selection</label>
+            <select required>
+                <option value="">Select Course</option>
+                <option>Web Development</option>
+                <option>Graphic Designing</option>
+                <option>Mobile App Development</option>
+                <option>Data Science</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label>Gender</label>
+            <div class="radio-group">
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+            </div>
+        </div>
+
+        <div class="input-group">
+            <label>Address</label>
+            <textarea placeholder="Enter your address"></textarea>
+        </div>
+
+        <button type="submit">Register Now</button>
+    </form>
+</div>
+
+</body>
+</html>
